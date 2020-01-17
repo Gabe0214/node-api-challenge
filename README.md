@@ -39,14 +39,20 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
+We learned about express routers, and express helpers.
 - [ ] Describe Middleware?
-
+Middle is a set of functions that can be ivoked globally or locally, and it can be used for modifications, validation etc before an api makes a request.
 - [ ] Describe a Resource?
+
+I believe a resource is a tool that enhances/ improves an api; for example, middleware
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+The Api returns the status 200 or 201, to know if a request was successful. 
+
 - [ ] How can we partition our application into sub-applications?
+
+We use a fucntion from express called 'router', which helps devlopers write readable/ more organized code. 
 
 ## Minimum Viable Product
 
